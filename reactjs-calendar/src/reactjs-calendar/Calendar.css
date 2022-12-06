@@ -1,0 +1,120 @@
+.default-calendar {
+    box-sizing: border-box;
+    font-size: 1rem;
+    max-width: 400px;
+}
+
+.default-calendar-picker {
+
+}
+
+.dayNames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    min-width: 320px;
+    margin-bottom: 2px;
+}
+
+.itemName {
+    background-color: white;
+    width: calc(100% / 7);
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+}
+
+.listDates {
+    /* display: fex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center; */
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.day {
+    width: calc(100% / 7);
+}
+
+.before {
+    background-color: purple;
+}
+
+.today {
+    background-color: bisque;
+}
+
+.choosen {
+    border: 1px solid red;
+}
+
+.selected {
+    background-color: cadetblue;
+}
+
+.disable {
+    background-color: brown;
+}
+
+.headerCalendar{
+
+}
+
+.previous {
+
+}
+
+.current {
+
+}
+
+.next {
+
+}
+
+.border-bottom {
+    border-bottom: 1px solid yellow;
+}
+
+.border-top {
+    border-top: 1px solid yellow;
+}
+
+.border-left{
+    border-left: 1px solid yellow;
+}
+
+.border-right{
+    border-right: 1px solid yellow;
+}
+
+.border-top-left-radius {
+    border-top-left-radius: 5px;
+}
+
+.border-bottom-right-radius {
+    border-bottom-right-radius: 5px;
+}
+
+.border-top-right-radius {
+    border-top-right-radius: 5px;
+}
+
+.border-bottom-left-radius {
+    border-bottom-left-radius: 5px;
+}
